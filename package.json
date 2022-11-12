@@ -11,6 +11,7 @@
     "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/app.js\""
   },
   "dependencies": {
+    "@prisma/client": "4.6.1",
     "dotenv": "^16.0.3",
     "express": "^4.18.2"
   },
